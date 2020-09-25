@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+
+
+html, body { 
+    height: 100%;
+    background: #F5F5F5; 
+    /* background:lightskyblue; */ 
+}
+
+body { 
+    margin: 0; 
+    font-family: Roboto, 
+    "Helvetica Neue", sans-serif; 
+}
+
+input{
+    width:100%
+}
+
+.formContainer{
+    width: 100% !important;
+    padding: 5%
+  }
+
+.veticalCenter{
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+.container{
+    position: relative;
+}
+
+.loginCenter{
+    top: 50%;
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
